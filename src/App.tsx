@@ -1,8 +1,9 @@
+import ToggleExample from "views/HooksExamples/ToggleExample";
+
 const App = () => {
   return (
     <>
-      <div>App</div>
-      <p>Hola Mundo</p>
+      <ToggleExample />
     </>
   );
 };
