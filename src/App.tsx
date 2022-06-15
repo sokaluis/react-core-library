@@ -1,9 +1,13 @@
-import ToggleExample from "views/HooksExamples/ToggleExample";
+import {
+  TimeOutExample,
+  // ToggleExample
+} from "views/HooksExamples";
 
 const App = () => {
   return (
     <>
-      <ToggleExample />
+      {/* <ToggleExample /> */}
+      <TimeOutExample />
     </>
   );
 };
