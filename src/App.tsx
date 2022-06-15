@@ -1,5 +1,6 @@
 import {
-  TimeOutExample,
+  DebounceExample,
+  // TimeOutExample,
   // ToggleExample
 } from "views/HooksExamples";
 
@@ -7,7 +8,8 @@ const App = () => {
   return (
     <>
       {/* <ToggleExample /> */}
-      <TimeOutExample />
+      {/* <TimeOutExample /> */}
+      <DebounceExample />
     </>
   );
 };
