@@ -1,15 +1,13 @@
-import {
-  DebounceExample,
-  // TimeOutExample,
-  // ToggleExample
-} from "views/HooksExamples";
+import { ArrayExample } from "views/HooksExamples";
 
 const App = () => {
   return (
     <>
       {/* <ToggleExample /> */}
       {/* <TimeOutExample /> */}
-      <DebounceExample />
+      {/* <DebounceExample /> */}
+      {/* <UpdateEffectExample /> */}
+      <ArrayExample />
     </>
   );
 };
