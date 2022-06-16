@@ -6,3 +6,4 @@ export * from "./useTimeout";
 export * from "./useToggle";
 export * from "./useUpdateEffect";
 export * from "./usePrevious";
+export * from "./useStateWithHistory";

@@ -1,4 +1,4 @@
-import { PreviousExample } from "views";
+import { StateWithHistoryExample } from "views";
 
 const App = () => {
   return (
@@ -9,7 +9,8 @@ const App = () => {
       {/* <UpdateEffectExample /> */}
       {/* <ArrayExample /> */}
       {/* <TransitionGroup /> */}
-      <PreviousExample />
+      {/* <PreviousExample /> */}
+      <StateWithHistoryExample />
     </>
   );
 };

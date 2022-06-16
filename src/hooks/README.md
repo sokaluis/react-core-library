@@ -31,3 +31,7 @@ Hook to avoid the first render of useEffect
 ## usePrevious
 
 Hook that allow us to save previous state
+
+## useStateWithHistory
+
+Hook to allow have a State History, set new value to the history, goBack, goForward or delete history
