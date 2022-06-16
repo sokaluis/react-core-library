@@ -27,3 +27,7 @@ Manage a toggle value
 ## useUpdateEffect
 
 Hook to avoid the first render of useEffect
+
+## usePrevious
+
+Hook that allow us to save previous state

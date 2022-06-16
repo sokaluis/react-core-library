@@ -1,5 +1,4 @@
-// import { ArrayExample } from "views/HooksExamples";
-import TransitionGroup from "views/TransitionGroup";
+import { PreviousExample } from "views";
 
 const App = () => {
   return (
@@ -9,7 +8,8 @@ const App = () => {
       {/* <DebounceExample /> */}
       {/* <UpdateEffectExample /> */}
       {/* <ArrayExample /> */}
-      <TransitionGroup />
+      {/* <TransitionGroup /> */}
+      <PreviousExample />
     </>
   );
 };
