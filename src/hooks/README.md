@@ -39,3 +39,7 @@ Hook to allow have a State History, set new value to the history, goBack, goForw
 ## useStorage
 
 Hook that handle localStorage and sessionStorage
+
+## useAsync
+
+Hook to handle async callbacks

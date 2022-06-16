@@ -1,4 +1,4 @@
-import { StorageExample } from "views";
+import { AsyncExample } from "views";
 
 const App = () => {
   return (
@@ -11,7 +11,8 @@ const App = () => {
       {/* <TransitionGroup /> */}
       {/* <PreviousExample /> */}
       {/* <StateWithHistoryExample /> */}
-      <StorageExample />
+      {/* <StorageExample /> */}
+      <AsyncExample />
     </>
   );
 };
