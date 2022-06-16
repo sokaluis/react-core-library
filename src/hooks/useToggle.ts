@@ -1,6 +1,6 @@
 import { MouseEvent, useState } from "react";
 // TODO: made toggleValue a generic type
-type toggleValueParams = boolean | MouseEvent;
+type toggleValueParams = boolean | MouseEvent<HTMLButtonElement>;
 type UseToggleReturnType = [boolean, (value?: toggleValueParams) => void];
 
 export const useToggle = (defaultValue: boolean): UseToggleReturnType => {
