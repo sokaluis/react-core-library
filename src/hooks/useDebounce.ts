@@ -1,5 +1,6 @@
 import { useEffect } from "react";
-import { callbackType, delayType, useTimeout } from "./useTimeout";
+import { callbackType, delayType } from "typescript";
+import { useTimeout } from "./useTimeout";
 
 export const useDebounce = (
   callback: callbackType,
@@ -12,7 +13,7 @@ export const useDebounce = (
     reset();
   }, [dependencies, reset]);
 
-  // This useEffect avoid to be called at mount
+  // This useEffect avoid callback to be called at mount
   useEffect(() => {
     clear();
   }, [clear]);

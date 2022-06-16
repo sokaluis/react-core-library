@@ -1,7 +1,5 @@
 import { useCallback, useEffect, useRef } from "react";
-
-export type callbackType = () => void;
-export type delayType = number;
+import { callbackType, delayType } from "typescript";
 
 export const useTimeout = (callback: callbackType, delay: delayType) => {
   const callbackRef = useRef<callbackType>(callback);
