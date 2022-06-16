@@ -1,6 +1,7 @@
 export { default as ArrayExample } from "./ArrayExample";
 export { default as AsyncExample } from "./AsyncExample";
 export { default as DebounceExample } from "./DebounceExample";
+export { default as FetchExample } from "./FetchExample";
 export { default as PreviousExample } from "./PreviousExample";
 export { default as StateWithHistoryExample } from "./StateWithHistoryExample";
 export { default as StorageExample } from "./StorageExample";

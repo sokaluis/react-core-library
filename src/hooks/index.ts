@@ -1,6 +1,7 @@
 export * from "./useArray";
 export * from "./useAsync";
 export * from "./useDebounce";
+export * from "./useFetch";
 export * from "./useField";
 export * from "./useForm";
 export * from "./usePrevious";
