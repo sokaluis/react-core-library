@@ -35,3 +35,7 @@ Hook that allow us to save previous state
 ## useStateWithHistory
 
 Hook to allow have a State History, set new value to the history, goBack, goForward or delete history
+
+## useStorage
+
+Hook that handle localStorage and sessionStorage

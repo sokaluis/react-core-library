@@ -1,4 +1,4 @@
-import { StateWithHistoryExample } from "views";
+import { StorageExample } from "views";
 
 const App = () => {
   return (
@@ -10,7 +10,8 @@ const App = () => {
       {/* <ArrayExample /> */}
       {/* <TransitionGroup /> */}
       {/* <PreviousExample /> */}
-      <StateWithHistoryExample />
+      {/* <StateWithHistoryExample /> */}
+      <StorageExample />
     </>
   );
 };

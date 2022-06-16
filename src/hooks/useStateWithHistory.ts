@@ -4,7 +4,7 @@ import { useCallback, useRef, useState } from "react";
 
 type useStateWithHistoryReturn<T> = [
   value: T,
-  setValue: any,
+  setValue: (v: any) => void,
   history: T[],
   pointer: number,
   historyHandlers: {
@@ -19,12 +19,12 @@ export const useStateWithHistory = <T>(
   defaultValue: T,
   capacity: number = 10
 ): useStateWithHistoryReturn<T> => {
-  const [value, setValue] = useState(defaultValue);
+  const [value, setValue] = useState<T>(defaultValue);
   const historyRef = useRef([value]);
   const pointerRef = useRef(0);
 
   const set = useCallback(
-    // TODO: type v as callback or value
+    // TODO: type V as callback or value
     (v: any) => {
       // set the callback function that we send to the setter
       const resolveValue = typeof v === "function" ? v(value) : v;
