@@ -1,5 +1,3 @@
-import { FetchExample } from "views";
-
 const App = () => {
   return (
     <>
@@ -12,8 +10,12 @@ const App = () => {
       {/* <PreviousExample /> */}
       {/* <StateWithHistoryExample /> */}
       {/* <StorageExample /> */}
+      {/* To Fix */}
       {/* <AsyncExample /> */}
-      <FetchExample />
+      {/* <FetchExample /> */}
+      {/* <ScriptExample /> */}
+      {/* To Fix Close */}
+      return <div>Hola</div>
     </>
   );
 };

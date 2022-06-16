@@ -10,3 +10,4 @@ export * from "./useStorage";
 export * from "./useTimeout";
 export * from "./useToggle";
 export * from "./useUpdateEffect";
+export * from "./useScript";

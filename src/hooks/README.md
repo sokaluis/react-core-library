@@ -47,3 +47,7 @@ Hook to handle async callbacks
 ## useFetch
 
 Hook to fetch data from API
+
+## useScript
+
+Hook to allow you load scripts

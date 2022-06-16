@@ -8,3 +8,4 @@ export { default as StorageExample } from "./StorageExample";
 export { default as TimeOutExample } from "./TimeOutExample";
 export { default as ToggleExample } from "./ToggleExample";
 export { default as UpdateEffectExample } from "./UpdateEffectExample";
+export { default as ScriptExample } from "./ScriptExample";
