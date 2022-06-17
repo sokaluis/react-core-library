@@ -1,4 +1,4 @@
-import { GeolocationExample } from "views";
+import { StateWithValidationExample } from "views";
 
 const App = () => {
   return (
@@ -22,7 +22,8 @@ const App = () => {
       {/* <OnScreenExample /> */}
       {/* <WindowSizeExample /> */}
       {/* <MediaQueryExample /> */}
-      <GeolocationExample />
+      {/* <GeolocationExample /> */}
+      <StateWithValidationExample />
     </>
   );
 };

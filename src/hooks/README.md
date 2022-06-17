@@ -75,3 +75,7 @@ Hook to handle mediaQueries
 ## useGeolocation
 
 Hook to handle geolocation on your browser
+
+## useStateWithValidation
+
+Hook to handle validation on the state
