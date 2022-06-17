@@ -67,3 +67,7 @@ Hook that use IntersectionObserver to check if the element that we pass a ref is
 ## useWindowSize
 
 Hook that detect when the size of the window change
+
+## useMediaQuery
+
+Hook to handle mediaQueries

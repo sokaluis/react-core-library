@@ -13,3 +13,4 @@ export { default as DeepCompareEffect } from "./DeepCompareEffect";
 export { default as EventListenerExample } from "./EventListenerExample";
 export { default as OnScreenExample } from "./OnScreenExample";
 export { default as WindowSizeExample } from "./WindowSizeExample";
+export { default as MediaQueryExample } from "./MediaQueryExample";

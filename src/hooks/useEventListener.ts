@@ -3,7 +3,8 @@ import { useEffect, useRef } from "react";
 export const useEventListener = (
   eventType: keyof WindowEventMap,
   callback: (e: any) => void,
-  element: Window | Element | null = window
+  //TODO: check if this is the correct type
+  element: Window | Element | null | MediaQueryList = window
 ) => {
   const callbackRef = useRef(callback);
 

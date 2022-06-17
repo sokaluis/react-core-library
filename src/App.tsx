@@ -1,4 +1,4 @@
-import { WindowSizeExample } from "views";
+import { MediaQueryExample } from "views";
 
 const App = () => {
   return (
@@ -20,7 +20,8 @@ const App = () => {
       {/* <DeepCompareEffect /> */}
       {/* <EventListenerExample /> */}
       {/* <OnScreenExample /> */}
-      <WindowSizeExample />
+      {/* <WindowSizeExample /> */}
+      <MediaQueryExample />
     </>
   );
 };
