@@ -59,3 +59,7 @@ Hook that deeply compare dependencies that we pass
 ## useEventListener
 
 Hook that handle events that you pass
+
+## useOnScreen
+
+Hook that use IntersectionObserver to check if the element that we pass a ref is visible

@@ -11,3 +11,4 @@ export { default as UpdateEffectExample } from "./UpdateEffectExample";
 export { default as ScriptExample } from "./ScriptExample";
 export { default as DeepCompareEffect } from "./DeepCompareEffect";
 export { default as EventListenerExample } from "./EventListenerExample";
+export { default as OnScreenExample } from "./OnScreenExample";

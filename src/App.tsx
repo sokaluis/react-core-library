@@ -1,4 +1,4 @@
-import { EventListenerExample } from "views";
+import { OnScreenExample } from "views";
 
 const App = () => {
   return (
@@ -18,7 +18,8 @@ const App = () => {
       {/* <ScriptExample /> */}
       {/* To Fix Close */}
       {/* <DeepCompareEffect /> */}
-      <EventListenerExample />
+      {/* <EventListenerExample /> */}
+      <OnScreenExample />
     </>
   );
 };
