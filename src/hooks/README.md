@@ -79,3 +79,7 @@ Hook to handle geolocation on your browser
 ## useStateWithValidation
 
 Hook to handle validation on the state
+
+## useSize
+
+Hook to always check the size of the ref

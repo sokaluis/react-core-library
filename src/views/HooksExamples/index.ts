@@ -16,3 +16,4 @@ export { default as WindowSizeExample } from "./WindowSizeExample";
 export { default as MediaQueryExample } from "./MediaQueryExample";
 export { default as GeolocationExample } from "./GeolocationExample";
 export { default as StateWithValidationExample } from "./StateWithValidationExample";
+export { default as SizeExample } from "./SizeExample";

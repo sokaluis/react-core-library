@@ -18,3 +18,4 @@ export * from "./useWindowSize";
 export * from "./useMediaQuery";
 export * from "./useGeolocation";
 export * from "./useStateWithValidation";
+export * from "./useSize";

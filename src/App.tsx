@@ -1,4 +1,4 @@
-import { StateWithValidationExample } from "views";
+import { SizeExample } from "views";
 
 const App = () => {
   return (
@@ -23,7 +23,8 @@ const App = () => {
       {/* <WindowSizeExample /> */}
       {/* <MediaQueryExample /> */}
       {/* <GeolocationExample /> */}
-      <StateWithValidationExample />
+      {/* <StateWithValidationExample /> */}
+      <SizeExample />
     </>
   );
 };
