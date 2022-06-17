@@ -12,3 +12,4 @@ export * from "./useToggle";
 export * from "./useUpdateEffect";
 export * from "./useScript";
 export * from "./useDeepCompareEffect";
+export * from "./useEventListener";

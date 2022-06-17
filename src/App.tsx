@@ -1,4 +1,4 @@
-import { DeepCompareEffect } from "views";
+import { EventListenerExample } from "views";
 
 const App = () => {
   return (
@@ -17,7 +17,8 @@ const App = () => {
       {/* <FetchExample /> */}
       {/* <ScriptExample /> */}
       {/* To Fix Close */}
-      <DeepCompareEffect />
+      {/* <DeepCompareEffect /> */}
+      <EventListenerExample />
     </>
   );
 };

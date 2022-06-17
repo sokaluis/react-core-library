@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef, useMemo } from "react";
 import { useDeepCompareEffect } from "hooks";
 
 const DeepCompareEffectComponent = () => {
@@ -9,13 +9,13 @@ const DeepCompareEffectComponent = () => {
   });
   const useDeepCompareEffectCountRef = useRef<any>();
 
-  // const person = useMemo(() => {
-  //   return {
-  //     name: "John",
-  //     age,
-  //   };
-  // }, [age]);
-  const person = { name: "John", age };
+  const person = useMemo(() => {
+    return {
+      name: "John",
+      age,
+    };
+  }, [age]);
+  // const person = { name: "John", age };
 
   console.log("person", person);
 

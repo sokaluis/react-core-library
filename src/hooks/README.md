@@ -55,3 +55,7 @@ Hook to allow you load scripts async
 ## useDeepCompareEffect
 
 Hook that deeply compare dependencies that we pass
+
+## useEventListener
+
+Hook that handle events that you pass
