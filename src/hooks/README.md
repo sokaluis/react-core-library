@@ -83,3 +83,7 @@ Hook to handle validation on the state
 ## useSize
 
 Hook to always check the size of the ref
+
+## useEffectOnce
+
+Hook that only apply effect onces

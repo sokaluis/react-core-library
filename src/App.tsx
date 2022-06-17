@@ -1,4 +1,4 @@
-import { SizeExample } from "views";
+import { EffectOnceExample } from "views";
 
 const App = () => {
   return (
@@ -24,7 +24,8 @@ const App = () => {
       {/* <MediaQueryExample /> */}
       {/* <GeolocationExample /> */}
       {/* <StateWithValidationExample /> */}
-      <SizeExample />
+      {/* <SizeExample /> */}
+      <EffectOnceExample />
     </>
   );
 };
