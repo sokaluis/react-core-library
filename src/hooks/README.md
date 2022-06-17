@@ -91,3 +91,7 @@ Hook that only apply effect onces
 ## useClickOutside
 
 check if you click outside of the reference
+
+## useDarkMode
+
+handle theme changes

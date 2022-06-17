@@ -1,4 +1,4 @@
-import { ClickOutsideExample } from "views";
+import { DarkModeExample } from "views";
 
 const App = () => {
   return (
@@ -26,7 +26,8 @@ const App = () => {
       {/* <StateWithValidationExample /> */}
       {/* <SizeExample /> */}
       {/* <EffectOnceExample /> */}
-      <ClickOutsideExample />
+      {/* <ClickOutsideExample /> */}
+      <DarkModeExample />
     </>
   );
 };
