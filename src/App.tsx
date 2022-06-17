@@ -1,4 +1,4 @@
-import { OnScreenExample } from "views";
+import { WindowSizeExample } from "views";
 
 const App = () => {
   return (
@@ -19,7 +19,8 @@ const App = () => {
       {/* To Fix Close */}
       {/* <DeepCompareEffect /> */}
       {/* <EventListenerExample /> */}
-      <OnScreenExample />
+      {/* <OnScreenExample /> */}
+      <WindowSizeExample />
     </>
   );
 };

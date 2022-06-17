@@ -63,3 +63,7 @@ Hook that handle events that you pass
 ## useOnScreen
 
 Hook that use IntersectionObserver to check if the element that we pass a ref is visible
+
+## useWindowSize
+
+Hook that detect when the size of the window change

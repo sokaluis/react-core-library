@@ -14,3 +14,4 @@ export * from "./useScript";
 export * from "./useDeepCompareEffect";
 export * from "./useEventListener";
 export * from "./useOnScreen";
+export * from "./useWindowSize";
