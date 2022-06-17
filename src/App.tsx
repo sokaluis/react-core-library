@@ -1,3 +1,5 @@
+import { DeepCompareEffect } from "views";
+
 const App = () => {
   return (
     <>
@@ -15,7 +17,7 @@ const App = () => {
       {/* <FetchExample /> */}
       {/* <ScriptExample /> */}
       {/* To Fix Close */}
-      return <div>Hola</div>
+      <DeepCompareEffect />
     </>
   );
 };

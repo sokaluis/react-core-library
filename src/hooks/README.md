@@ -50,4 +50,8 @@ Hook to fetch data from API
 
 ## useScript
 
-Hook to allow you load scripts
+Hook to allow you load scripts async
+
+## useDeepCompareEffect
+
+Hook that deeply compare dependencies that we pass

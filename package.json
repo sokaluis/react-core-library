@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.182",
     "@types/react-transition-group": "^4.4.4",
     "@types/styled-components": "^5.1.25"
   }
