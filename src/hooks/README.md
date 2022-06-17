@@ -71,3 +71,7 @@ Hook that detect when the size of the window change
 ## useMediaQuery
 
 Hook to handle mediaQueries
+
+## useGeolocation
+
+Hook to handle geolocation on your browser

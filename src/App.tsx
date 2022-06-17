@@ -1,4 +1,4 @@
-import { MediaQueryExample } from "views";
+import { GeolocationExample } from "views";
 
 const App = () => {
   return (
@@ -21,7 +21,8 @@ const App = () => {
       {/* <EventListenerExample /> */}
       {/* <OnScreenExample /> */}
       {/* <WindowSizeExample /> */}
-      <MediaQueryExample />
+      {/* <MediaQueryExample /> */}
+      <GeolocationExample />
     </>
   );
 };

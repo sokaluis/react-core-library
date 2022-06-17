@@ -14,3 +14,4 @@ export { default as EventListenerExample } from "./EventListenerExample";
 export { default as OnScreenExample } from "./OnScreenExample";
 export { default as WindowSizeExample } from "./WindowSizeExample";
 export { default as MediaQueryExample } from "./MediaQueryExample";
+export { default as GeolocationExample } from "./GeolocationExample";
