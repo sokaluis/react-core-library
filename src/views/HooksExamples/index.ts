@@ -18,3 +18,4 @@ export { default as GeolocationExample } from "./GeolocationExample";
 export { default as StateWithValidationExample } from "./StateWithValidationExample";
 export { default as SizeExample } from "./SizeExample";
 export { default as EffectOnceExample } from "./EffectOnceExample";
+export { default as ClickOutsideExample } from "./ClickOutsideExample";

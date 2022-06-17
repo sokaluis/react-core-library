@@ -87,3 +87,7 @@ Hook to always check the size of the ref
 ## useEffectOnce
 
 Hook that only apply effect onces
+
+## useClickOutside
+
+check if you click outside of the reference

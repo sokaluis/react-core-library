@@ -1,4 +1,4 @@
-import { EffectOnceExample } from "views";
+import { ClickOutsideExample } from "views";
 
 const App = () => {
   return (
@@ -25,7 +25,8 @@ const App = () => {
       {/* <GeolocationExample /> */}
       {/* <StateWithValidationExample /> */}
       {/* <SizeExample /> */}
-      <EffectOnceExample />
+      {/* <EffectOnceExample /> */}
+      <ClickOutsideExample />
     </>
   );
 };

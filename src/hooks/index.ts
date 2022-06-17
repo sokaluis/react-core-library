@@ -20,3 +20,4 @@ export * from "./useGeolocation";
 export * from "./useStateWithValidation";
 export * from "./useSize";
 export * from "./useEffectOnce";
+export * from "./useClickOutside";

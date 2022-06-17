@@ -4,7 +4,7 @@ export const useEventListener = (
   eventType: keyof WindowEventMap,
   callback: (e: any) => void,
   //TODO: check if this is the correct type
-  element: Window | Element | null | MediaQueryList = window
+  element: any = window
 ) => {
   const callbackRef = useRef(callback);
 
