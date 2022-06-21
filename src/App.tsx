@@ -1,4 +1,4 @@
-import { DarkModeExample } from "views";
+import { CopyToClipboardExample } from "views";
 
 const App = () => {
   return (
@@ -27,7 +27,8 @@ const App = () => {
       {/* <SizeExample /> */}
       {/* <EffectOnceExample /> */}
       {/* <ClickOutsideExample /> */}
-      <DarkModeExample />
+      {/* <DarkModeExample /> */}
+      <CopyToClipboardExample />
     </>
   );
 };

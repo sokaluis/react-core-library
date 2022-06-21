@@ -20,3 +20,4 @@ export { default as SizeExample } from "./SizeExample";
 export { default as EffectOnceExample } from "./EffectOnceExample";
 export { default as ClickOutsideExample } from "./ClickOutsideExample";
 export { default as DarkModeExample } from "./DarkModeExample";
+export { default as CopyToClipboardExample } from "./CopyToClipboardExample";

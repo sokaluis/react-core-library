@@ -22,3 +22,4 @@ export * from "./useSize";
 export * from "./useEffectOnce";
 export * from "./useClickOutside";
 export * from "./useDarkMode";
+export * from "./useCopyToClipboard";

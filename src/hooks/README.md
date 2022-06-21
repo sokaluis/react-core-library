@@ -95,3 +95,7 @@ check if you click outside of the reference
 ## useDarkMode
 
 handle theme changes
+
+## useCopyToClipboard
+
+Hook to handle the clipboard
