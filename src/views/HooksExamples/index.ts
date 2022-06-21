@@ -21,3 +21,4 @@ export { default as EffectOnceExample } from "./EffectOnceExample";
 export { default as ClickOutsideExample } from "./ClickOutsideExample";
 export { default as DarkModeExample } from "./DarkModeExample";
 export { default as CopyToClipboardExample } from "./CopyToClipboardExample";
+export { default as CookieExample } from "./CookieExample";

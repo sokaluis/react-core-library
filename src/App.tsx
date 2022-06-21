@@ -1,4 +1,4 @@
-import { CopyToClipboardExample } from "views";
+import { CookieExample } from "views";
 
 const App = () => {
   return (
@@ -28,7 +28,8 @@ const App = () => {
       {/* <EffectOnceExample /> */}
       {/* <ClickOutsideExample /> */}
       {/* <DarkModeExample /> */}
-      <CopyToClipboardExample />
+      {/* <CopyToClipboardExample /> */}
+      <CookieExample />
     </>
   );
 };

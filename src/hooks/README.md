@@ -99,3 +99,7 @@ handle theme changes
 ## useCopyToClipboard
 
 Hook to handle the clipboard
+
+## useCookie
+
+Handle easily cookies
