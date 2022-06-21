@@ -6,7 +6,7 @@ const DarkModeExample = () => {
 
   return (
     <button
-      onClick={() => setDarkMode((prevDarkMode: string) => !prevDarkMode)}
+      onClick={() => setDarkMode((prevDarkMode: boolean) => !prevDarkMode)}
       style={{
         border: `1px solid ${darkMode ? "white" : "black"}`,
         background: "none",

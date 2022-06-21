@@ -1,6 +1,5 @@
 import { useState } from "react";
 
-// TODO: improve the generic type logic or define which type the hook will use
 export const useArray = <T>(defaultValue: T[]) => {
   const [array, setArray] = useState<T[]>(defaultValue);
 

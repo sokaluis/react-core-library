@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
+import { callbackType } from "typescript";
 
-// type useStorageReturn<T> = [T | undefined, (value: any) => void, () => void];
+type UseStorageReturn<T> = [T | undefined, (value: T) => void, callbackType];
 
 export const useLocalStorage = <T>(key: string, defaultValue?: T) => {
   return useStorage(key, defaultValue, window.localStorage);
@@ -10,13 +11,13 @@ export const useSessionStorage = <T>(key: string, defaultValue?: T) => {
   return useStorage(key, defaultValue, window.sessionStorage);
 };
 
-const useStorage = (
+const useStorage = <T>(
   key: string,
-  defaultValue: any,
+  defaultValue: T,
   storageObject: Storage
   //TODO: try to type this return useStorageReturn
-): any => {
-  const [value, setValue] = useState<any>(() => {
+): UseStorageReturn<T> => {
+  const [value, setValue] = useState<T | undefined>(() => {
     const jsonValue = storageObject.getItem(key);
     if (jsonValue != null) return JSON.parse(jsonValue);
 
