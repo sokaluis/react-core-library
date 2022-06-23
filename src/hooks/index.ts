@@ -24,3 +24,4 @@ export * from "./useClickOutside";
 export * from "./useDarkMode";
 export * from "./useCopyToClipboard";
 export * from "./useCookie";
+// TODO: transcript next hooks files to TS
